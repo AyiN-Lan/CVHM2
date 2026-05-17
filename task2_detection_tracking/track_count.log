@@ -1,0 +1,146 @@
+INFO - Processing frame 10/977
+INFO - Processing frame 20/977
+INFO - Processing frame 30/977
+INFO - Processing frame 40/977
+INFO - Processing frame 50/977
+INFO - Class pedestrian (ID 36) crossed line, current count: 1
+INFO - Processing frame 60/977
+INFO - Processing frame 70/977
+INFO - Processing frame 80/977
+INFO - Processing frame 90/977
+INFO - Processing frame 100/977
+INFO - Processing frame 110/977
+INFO - Processing frame 120/977
+INFO - Processing frame 130/977
+INFO - Class pedestrian (ID 109) crossed line, current count: 2
+INFO - Processing frame 140/977
+INFO - Processing frame 150/977
+INFO - Processing frame 160/977
+INFO - Processing frame 170/977
+INFO - Class bicycle (ID 158) crossed line, current count: 1
+INFO - Class pedestrian (ID 161) crossed line, current count: 3
+INFO - Processing frame 180/977
+INFO - Class people (ID 161) crossed line, current count: 1
+INFO - Processing frame 190/977
+INFO - Processing frame 200/977
+INFO - Processing frame 210/977
+INFO - Processing frame 220/977
+INFO - Processing frame 230/977
+INFO - Processing frame 240/977
+INFO - Processing frame 250/977
+INFO - Processing frame 260/977
+INFO - Processing frame 270/977
+INFO - Processing frame 280/977
+INFO - Class pedestrian (ID 280) crossed line, current count: 4
+INFO - Processing frame 290/977
+INFO - Processing frame 300/977
+INFO - Processing frame 310/977
+INFO - Processing frame 320/977
+INFO - Processing frame 330/977
+INFO - Class people (ID 310) crossed line, current count: 2
+INFO - Processing frame 340/977
+INFO - Processing frame 350/977
+INFO - Class motor (ID 367) crossed line, current count: 1
+INFO - Processing frame 360/977
+INFO - Class car (ID 373) crossed line, current count: 1
+INFO - Processing frame 370/977
+INFO - Processing frame 380/977
+INFO - Processing frame 390/977
+INFO - Processing frame 400/977
+INFO - Processing frame 410/977
+INFO - Class motor (ID 414) crossed line, current count: 2
+INFO - Processing frame 420/977
+INFO - Class people (ID 420) crossed line, current count: 3
+INFO - Processing frame 430/977
+INFO - Processing frame 440/977
+INFO - Processing frame 450/977
+INFO - Processing frame 460/977
+INFO - Processing frame 470/977
+INFO - Processing frame 480/977
+INFO - Processing frame 490/977
+INFO - Processing frame 500/977
+INFO - Class motor (ID 587) crossed line, current count: 3
+INFO - Processing frame 510/977
+INFO - Processing frame 520/977
+INFO - Class motor (ID 591) crossed line, current count: 4
+INFO - Processing frame 530/977
+INFO - Class pedestrian (ID 477) crossed line, current count: 5
+INFO - Processing frame 540/977
+INFO - Processing frame 550/977
+INFO - Processing frame 560/977
+INFO - Class people (ID 646) crossed line, current count: 4
+INFO - Class people (ID 580) crossed line, current count: 5
+INFO - Processing frame 570/977
+INFO - Class pedestrian (ID 632) crossed line, current count: 6
+INFO - Processing frame 580/977
+INFO - Class pedestrian (ID 580) crossed line, current count: 7
+INFO - Processing frame 590/977
+INFO - Class pedestrian (ID 760) crossed line, current count: 8
+INFO - Processing frame 600/977
+INFO - Class people (ID 743) crossed line, current count: 6
+INFO - Processing frame 610/977
+INFO - Class pedestrian (ID 739) crossed line, current count: 9
+INFO - Processing frame 620/977
+INFO - Processing frame 630/977
+INFO - Class pedestrian (ID 605) crossed line, current count: 10
+INFO - Processing frame 640/977
+INFO - Class pedestrian (ID 626) crossed line, current count: 11
+INFO - Class pedestrian (ID 909) crossed line, current count: 12
+INFO - Processing frame 650/977
+INFO - Processing frame 660/977
+INFO - Processing frame 670/977
+INFO - Class pedestrian (ID 941) crossed line, current count: 13
+INFO - Processing frame 680/977
+INFO - Processing frame 690/977
+INFO - Processing frame 700/977
+INFO - Class pedestrian (ID 1009) crossed line, current count: 14
+INFO - Processing frame 710/977
+INFO - Processing frame 720/977
+INFO - Class pedestrian (ID 405) crossed line, current count: 15
+INFO - Processing frame 730/977
+INFO - Class pedestrian (ID 1084) crossed line, current count: 16
+INFO - Class pedestrian (ID 1106) crossed line, current count: 17
+INFO - Processing frame 740/977
+INFO - Processing frame 750/977
+INFO - Class pedestrian (ID 1130) crossed line, current count: 18
+INFO - Class bicycle (ID 1130) crossed line, current count: 2
+INFO - Processing frame 760/977
+INFO - Processing frame 770/977
+INFO - Class pedestrian (ID 1214) crossed line, current count: 19
+INFO - Processing frame 780/977
+INFO - Class bicycle (ID 1232) crossed line, current count: 3
+INFO - Class pedestrian (ID 1099) crossed line, current count: 20
+INFO - Processing frame 790/977
+INFO - Processing frame 800/977
+INFO - Processing frame 810/977
+INFO - Processing frame 820/977
+INFO - Processing frame 830/977
+INFO - Processing frame 840/977
+INFO - Class pedestrian (ID 1342) crossed line, current count: 21
+INFO - Processing frame 850/977
+INFO - Class pedestrian (ID 1173) crossed line, current count: 22
+INFO - Processing frame 860/977
+INFO - Processing frame 870/977
+INFO - Processing frame 880/977
+INFO - Processing frame 890/977
+INFO - Processing frame 900/977
+INFO - Processing frame 910/977
+INFO - Processing frame 920/977
+INFO - Processing frame 930/977
+INFO - Processing frame 940/977
+INFO - Processing frame 950/977
+INFO - Class pedestrian (ID 1350) crossed line, current count: 23
+INFO - Processing frame 960/977
+INFO - Processing frame 970/977
+INFO - Processing completed
+INFO - Category counts:
+INFO - pedestrian: 23
+INFO - people: 6
+INFO - bicycle: 3
+INFO - car: 1
+INFO - van: 0
+INFO - truck: 0
+INFO - tricycle: 0
+INFO - bus: 0
+INFO - motor: 4
+INFO - Total count: 37

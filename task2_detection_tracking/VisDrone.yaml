@@ -1,0 +1,5 @@
+path: ../data/VisDrone
+train: images
+val: images
+nc: 10
+names: ['pedestrian','people','bicycle','car','van','truck','tricycle','awning-tricycle','bus','motor']

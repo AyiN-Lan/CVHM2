@@ -1,0 +1,9 @@
+data/
+*.pth
+*.pt
+*.onnx
+*.mp4
+runs/
+wandb/
+__pycache__/
+*.pyc
