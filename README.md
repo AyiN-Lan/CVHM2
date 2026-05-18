@@ -103,3 +103,6 @@ python train.py
 1. 全程使用GPU加速训练，无GPU环境无法正常训练
 2. 数据集、模型权重、输出视频均为大文件，不上传至GitHub
 3. 运行代码前必须修改本地数据路径，无法直接执行
+
+## 模型权重下载链接
+https://pan.baidu.com/s/1iq4sza62r8Z7JKW3DnpWPg?pwd=8upn 提取码: 8upn
