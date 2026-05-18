@@ -27,10 +27,14 @@ wandb>=0.15.0
 4. 所有训练、测试需先在代码中指定本地数据路径，无法直接运行
 
 ## 三、仓库文件结构
+<pre>
 CV-Midterm/
-├──data/  (数据集配置格式示例)
+├── data/                      # 数据集存放目录
+│   ├── Oxford-IIIT_Pet/
+│   ├── VisDrone/
+│   └── test_video/
 ├── README.md
-├── requirements.txt （环境依赖文件）
+├── requirements.txt           # 环境依赖文件
 ├── task1_classification/
 │   ├── train.py
 │   ├── task1_test_acc.png
@@ -50,10 +54,10 @@ CV-Midterm/
     ├── task3_train_miou.png
     ├── task3_val_loss.png
     └── task3_val_miou.png
-
+</pre>
 ## 四、运行指令
 ### 任务1：图像分类（ResNet-18+注意力机制）
-cd task1_classification
+cd task1_classification<br>
 python train.py
 - 需提前配置本地Oxford-IIIT Pet数据集路径
 - 训练日志离线模式保存在本地，需手动同步至WandB
@@ -70,7 +74,7 @@ python track_count.py
 - 输出视频文件过大，不上传至仓库
 
 ### 任务3：语义分割（从零搭建U-Net）
-cd task3_segmentation
+cd task3_segmentation<br>
 python train.py
 - 支持CE、Dice、CE+Dice三种损失函数
 - 需提前配置本地Oxford-IIIT Pet数据集路径
@@ -99,4 +103,3 @@ python train.py
 1. 全程使用GPU加速训练，无GPU环境无法正常训练
 2. 数据集、模型权重、输出视频均为大文件，不上传至GitHub
 3. 运行代码前必须修改本地数据路径，无法直接执行
-
