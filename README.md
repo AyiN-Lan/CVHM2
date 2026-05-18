@@ -23,7 +23,7 @@ wandb>=0.15.0
 本仓库不上传数据集、模型权重、视频文件，需自行下载并配置本地路径：
 1. 任务1/任务3共用数据集：Oxford-IIIT Pet Dataset，需下载至本地并在代码中修改数据集路径
 2. 任务2数据集：VisDrone数据集，需在VisDrone.yaml中配置本地数据集根路径
-3. 任务2预训练权重：下载yolov8n.pt，放置于task2_detection_tracking文件夹下
+3. 任务2预训练权重：下载yolov8s.pt，放置于task2_detection_tracking文件夹下
 4. 所有训练、测试需先在代码中指定本地数据路径，无法直接运行
 
 ## 三、仓库文件结构
