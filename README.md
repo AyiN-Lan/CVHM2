@@ -31,8 +31,7 @@ wandb>=0.15.0
 CV-Midterm/
 ├── data/                      # 数据集存放目录
 │   ├── Oxford-IIIT_Pet/
-│   ├── VisDrone/
-│   └── test_video/
+│   └── VisDrone/
 ├── README.md
 ├── requirements.txt           # 环境依赖文件
 ├── task1_classification/
@@ -46,7 +45,16 @@ CV-Midterm/
 │   ├── train.py
 │   ├── track_count.py
 │   ├── VisDrone.yaml
-│   └── track_count.log
+│   ├── track_count.log
+│   ├── results.csv # YOLOv8 训练完整指标
+│   ├── results.png # 综合训练曲线
+│   ├── BoxPR_curve.png # 各类别 PR 曲线
+│   ├── BoxP_curve.png # 精确率 - 置信度曲线
+│   ├── BoxR_curve.png # 召回率 - 置信度曲线
+│   ├── BoxF1_curve.png # F1 - 置信度曲线
+│   ├── confusion_matrix.png # 原始混淆矩阵
+│   ├── confusion_matrix_normalized.png # 归一化混淆矩阵
+│   └── labels.jpg # 数据集统计分析图
 └── task3_segmentation/
     ├── train.py
     ├── task3_test_miou.png
@@ -70,7 +78,7 @@ cd task2_detection_tracking
 python train.py
 # 执行跟踪与越线计数
 python track_count.py
-- 需配置VisDrone.yaml数据集路径
+- 需配置VisDrone.yaml数据集路径以及测试视频路径
 - 越线计数结果保存至track_count.log
 - 输出视频文件过大，不上传至仓库
 
