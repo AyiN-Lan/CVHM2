@@ -62,6 +62,7 @@ python train.py
 - 需提前配置本地Oxford-IIIT Pet数据集路径
 - 训练日志离线模式保存在本地，需手动同步至WandB
 - 实验曲线已保存至当前文件夹
+- 需在代码中手动修改全局pretrained和use_se变量参数True/False
 - 运行指令后会开始训练模型，生成各个超参数下的最优模型权重，此外还会生成存档点权重文件
 ### 任务2：目标检测与跟踪（YOLOv8+ByteTrack）
 cd task2_detection_tracking
@@ -76,7 +77,7 @@ python track_count.py
 ### 任务3：语义分割（从零搭建U-Net）
 cd task3_segmentation<br>
 python train.py
-- 支持CE、Dice、CE+Dice三种损失函数
+- 支持CE、Dice、CE+Dice三种损失函数，需在代码中对全局变量进行手动修改
 - 需提前配置本地Oxford-IIIT Pet数据集路径
 - 训练日志离线模式保存在本地，需手动同步至WandB
 - 实验曲线已保存至当前文件夹
